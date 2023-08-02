@@ -6,5 +6,5 @@ import axios from 'axios';
 
 // 创建一个 axios 的实例, 配置 baseURL 的基准路径
 export default axios.create({
-    baseURL: '/'
+	baseURL: '/',
 });
